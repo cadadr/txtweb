@@ -1,0 +1,20 @@
+				txtweb
+
+			unixy static websites
+
+Requires:
+
+- GNU awk
+- GNU m4
+- GNU make
+
+Setup:
+
+- Copy the examples/Makefile into your website.
+- Create files config.mk and config.m4 (see examples/).
+- Set TWDIR in config.mk.  Copy TWDIR into your website if you like.
+- Create posts and lists (see .page and .list files in examples/).
+
+Building:
+
+Run `make'.
